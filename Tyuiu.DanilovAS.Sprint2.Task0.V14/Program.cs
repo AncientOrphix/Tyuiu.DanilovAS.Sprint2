@@ -44,7 +44,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task0.V14
                 Console.WriteLine(res[i]);
             }
 
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

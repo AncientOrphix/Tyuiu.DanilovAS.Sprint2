@@ -16,7 +16,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task0.V14.Lib
             res[4] = y <= x;
             res[5] = y >= x;
 
-            return res;
+            return res; 
         }
     }
 }
