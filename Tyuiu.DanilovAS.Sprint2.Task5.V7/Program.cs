@@ -31,7 +31,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task5.V7
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int startYear = 1990;
+            int startYear = 2;
             Console.Write("Введите номер дня:");
             int n = Convert.ToInt32(Console.ReadLine());
 
