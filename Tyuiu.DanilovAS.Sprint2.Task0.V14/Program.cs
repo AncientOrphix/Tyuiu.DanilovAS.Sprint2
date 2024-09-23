@@ -11,7 +11,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task0.V14
             Console.Title = "Спринт #2 | Выполнил: Данилов А. С. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Операции сравнения                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
             Console.WriteLine("* Выполнил: Данилов Александр Сергеевич |  ИИПб-24-2                      *");
