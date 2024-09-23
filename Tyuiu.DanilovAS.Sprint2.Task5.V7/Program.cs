@@ -32,10 +32,19 @@ namespace Tyuiu.DanilovAS.Sprint2.Task5.V7
             Console.WriteLine("***************************************************************************");
 
             int startYear = 1990;
-            Console.Write("Введите номер дня:");
+            string res;
+            Console.Write("Введите номер месяца:");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Ответ: " + ds.FindMonthName(startYear, n));
+
+            if ((n < 1) || (n > 12))
+            {
+                res = "Введенно неверное значение!";
+            }
+            else
+            {
+                res = "Это месяц: " + ds.FindMonthName(startYear,n);
+            }
             Console.ReadKey();
         }
     }

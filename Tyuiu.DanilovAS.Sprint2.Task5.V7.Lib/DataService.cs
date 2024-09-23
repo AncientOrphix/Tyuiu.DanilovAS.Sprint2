@@ -8,7 +8,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task5.V7.Lib
         public string FindMonthName(int startYear, int n)
         {
             
-            n = (n % 12) - 1;
+            n = (n % 12) + 1;
             string res;
             switch (n)
             {
