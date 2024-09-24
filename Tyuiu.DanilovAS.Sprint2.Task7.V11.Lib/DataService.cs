@@ -10,7 +10,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task7.V11.Lib
             bool result;
             //1) y = x
             //2) x^2 + y^2 =1
-            if ((y>=x) && (Math.Pow(x,2) + Math.Pow(y,2) <= 1))
+            if ((y>=x) && (Math.Pow(x,2) + Math.Pow(y,2) <= 1) &&(y<0 & x<0))
             {
                 result = true;
             }
