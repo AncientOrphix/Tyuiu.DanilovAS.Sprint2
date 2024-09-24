@@ -38,7 +38,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13
             Console.Write("Введите день: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            string res = ds.FindDateOfNextDay(g, m, n);
+            string res = ds.FindDateOfNextDay(g, m, n); 
             Console.WriteLine("Ответ: " + res);
             Console.ReadKey();
         }

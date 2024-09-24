@@ -11,7 +11,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Test
             DataService ds = new DataService();
 
             int n = 31;
-            int m = 12;
+            int m = 12; 
             int g = 1999;
 
             var res = ds.FindDateOfNextDay(g,m,n);

@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DanilovAS.Sprint2.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DanilovAS.Sprint2.Task6.V13.Test", "Tyuiu.DanilovAS.Sprint2.Task6.V13.Test\Tyuiu.DanilovAS.Sprint2.Task6.V13.Test.csproj", "{FC921E2D-D01D-41F0-AFE2-EB63AA311509}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{41E60571-4A34-4B71-BF93-73326D3A92E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
