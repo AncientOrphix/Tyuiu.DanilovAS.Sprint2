@@ -47,23 +47,14 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Lib
                         g++;
                     }
                 }
-
-                switch (n)
-                {
-                    case 1: n = 01; break;
-                    case 2: n = 02; break;
-                    case 3: n = 03; break;
-                    case 4: n = 04; break;
-                    case 5: n = 05; break;
-                    case 6: n = 06; break;
-                    case 7: n = 07; break;
-                    case 8: n = 08; break;
-                    case 9: n = 09; break;
-                }
-
                 if (m > 9)
                 {
                     result = $"{n}.{m}.{g}";
+                }
+
+                else if ((m<=9) && (n <= 9))
+                {
+                    result = $"0.{n}0.{m}.{g}";
                 }
 
                 else
