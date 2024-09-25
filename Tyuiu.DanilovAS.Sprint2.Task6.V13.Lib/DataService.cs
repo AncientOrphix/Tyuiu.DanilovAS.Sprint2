@@ -54,7 +54,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Lib
 
                 else if ((m<=9) && (n <= 9))
                 {
-                    result = $"0.{n}.0{m}.{g}";
+                    result = $"0{n}.0{m}.{g}";
                 }
 
                 else
