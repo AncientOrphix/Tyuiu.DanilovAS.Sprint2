@@ -9,9 +9,9 @@ namespace Tyuiu.DanilovAS.Sprint2.Task5.V7.Test
         public void TestFindMonthName()
         {
             DataService ds = new DataService();
-            int n = 4456;
+            int n = 1;
             int startYear = 1990;
-            var wait = "Àןנוכü";
+            var wait = "ÿםגאנü";
             var res = ds.FindMonthName(startYear, n);
             Assert.AreEqual(res, wait);
         }

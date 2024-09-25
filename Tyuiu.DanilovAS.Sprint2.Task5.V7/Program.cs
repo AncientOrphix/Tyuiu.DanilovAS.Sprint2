@@ -45,6 +45,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task5.V7
             {
                 res = "Это месяц: " + ds.FindMonthName(startYear,n);
             }
+            Console.WriteLine(res);
             Console.ReadKey();
         }
     }

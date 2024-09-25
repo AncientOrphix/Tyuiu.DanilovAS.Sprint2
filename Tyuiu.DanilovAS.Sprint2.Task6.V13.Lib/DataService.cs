@@ -48,7 +48,15 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Lib
                     }
                 }
 
-                result = $"Следующий день: {n}.{m}.{g}";
+                if (m > 9)
+                {
+                    result = $"Следующий день: {n}.{m}.{g}";
+                }
+
+                else
+                {
+                    result = $"Следующий день: {n}0{m}.{g}";
+                }
             }
             return result;
         }
