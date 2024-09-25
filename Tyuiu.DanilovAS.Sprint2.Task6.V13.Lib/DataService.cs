@@ -50,12 +50,12 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Lib
 
                 if (m > 9)
                 {
-                    result = $"Следующий день: {n}.{m}.{g}";
+                    result = $"{n}.{m}.{g}";
                 }
 
                 else
                 {
-                    result = $"Следующий день: {n}.0{m}.{g}";
+                    result = $"{n}.0{m}.{g}";
                 }
             }
             return result;
