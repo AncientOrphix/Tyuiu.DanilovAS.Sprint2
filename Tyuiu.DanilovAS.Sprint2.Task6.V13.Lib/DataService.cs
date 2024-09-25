@@ -55,7 +55,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Lib
 
                 else
                 {
-                    result = $"Следующий день: {n}0{m}.{g}";
+                    result = $"Следующий день: {n}.0{m}.{g}";
                 }
             }
             return result;
