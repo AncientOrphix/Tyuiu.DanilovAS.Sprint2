@@ -15,7 +15,7 @@ namespace Tyuiu.DanilovAS.Sprint2.Task6.V13.Test
             int g = 1999;
 
             var res = ds.FindDateOfNextDay(g,m,n);
-            string wait = "Следующий день: 1.1.2000";
+            string wait = "01.01.2000";
             Assert.AreEqual(res,wait);
         }
     }
